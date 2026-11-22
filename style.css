@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.navbar {
+    width: 100%;
+    padding: 20px;
+    background-color: #102126;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.navbar h2 {
+    color: white;
+    font-size: 28px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar ul li a:hover {
+    color: #18c99a;
+}
+
+
+
+.hero {
+
+    height: 100vh;
+
+    background-image: url("background images/hero.jfif");
+
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.about {
+    width: 100%;
+    height: 400px;
+    margin-top: 10%;
+    background-image: url("background images/About.jfif");
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.about-content {
+    max-width: 700px;
+}
+
+.about h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+
+
+.parallax {
+    width: 100%;
+    height: 400px;
+    margin-top: 10%;
+    background-image: url("background images/Mountain.jfif");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.parallax h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.parallax p {
+    font-size: 16px;
+}
+
+
+
+.contact {
+    padding: 90px 20px;
+    text-align: center;
+
+}
+
+.contact h2 {
+    font-size: 32px;
+    color: #102126;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    color: #555;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.btn {
+
+    padding: 15px;
+    background-color: #18c99a;
+    color: #102126;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+
+.whatsapp {
+    width: 55px;
+    height: 55px;
+    background: #25d366;
+    color: white;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+
+}
+
+.whatsapp:hover {
+    background: #128c7e;
+}
+
+
+
+footer {
+    background: #102126;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+footer h2 {
+    font-size: 28px;
+    color: #18c99a;
+    margin-bottom: 15px;
+}
+
+footer p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.footer-links a:hover {
+    color: #18c99a;
+}
